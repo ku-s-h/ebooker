@@ -1,6 +1,6 @@
 {
   "name": "ebooker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple nodejs CLI tool to easily download programming ebooks",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/k-u-s-h/ebooker"
+    "url": "https://github.com/singhkushagra/ebooker"
   },
   "author": "kushagra <singh.kushagra93@gmail.com>",
   "license": "M.I.T",
   "bugs": {
-    "url": "https://github.com/k-u-s-h/ebooker/issues"
+    "url": "https://github.com/singhkushagra/ebooker/issues"
   },
-  "homepage": "https://github.com/k-u-s-h/ebooker",
+  "homepage": "https://github.com/singhkushagra/ebooker",
   "dependencies": {
     "bluebird": "^2.3.4",
     "colors": "^0.6.2",
