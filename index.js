@@ -20,13 +20,20 @@ process.argv.forEach(function(val, index, array) {
 		opt += val + ' ';
 	}
 });
+
+// Make sure that a key-word is passed
+if(opt == '') {
+	console.log(colors.redBG('ERROR: NO KEY-WORD ENTERED!!'));
+	process.exit(0);
+}
+
 //make the API request
 request('http://it-ebooks-api.info/v1/search/' + opt.trim()).spread(function(response, body) {
 	return JSON.parse(body);
 }).then(function(s) {
 	if (s.Total == '0') {
 		// No books found!!
-		throw "OOPS!! NO ITEMS FOUND";
+		throw "OOPS!! NO ITEMhS FOUND";
 	}
 	var i = 0;
 	(s.Books).forEach(function(book) {
