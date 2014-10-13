@@ -1,6 +1,6 @@
 {
   "name": "ebooker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple nodejs CLI tool to easily download programming ebooks",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,6 @@
+[![NPM](https://nodei.co/npm/ebooker.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ebooker/)
+
+
 #ebooker
 ###A simple node.js based CLI tool to easily download programming ebooks
 
